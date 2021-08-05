@@ -1,4 +1,7 @@
-.container {
+body {
   background-color: #f7fbff;
   background-image: url(./assets/grid-noise.png);
+}
+.rounded-3 {
+  border-radius: 15% !important;
 }
