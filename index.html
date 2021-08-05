@@ -90,14 +90,16 @@
       </nav>
 
       <!-- mini description -->
-      <div>
-        <p class="text-center">Center aligned text on all viewport sizes.</p>
+      <div class="margin-bottom: 18rem">
+        <h1 class="text-center p-4 mt-3 bg-secondary">
+          Donate a meal to save our community!
+        </h1>
       </div>
     </header>
     <!-- carousel -->
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide mb-3"
       data-bs-ride="carousel"
     >
       <div class="carousel-indicators">
@@ -123,26 +125,71 @@
         ></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item">
-          <img
-            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-            class="d-block w-100"
-            alt="..."
-          />
+        <div class="carousel-item active bg-secondary">
+          <div class="d-flex">
+            <div class="border-end border-dark border-1">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.291169986865!2d-122.42930854880896!3d37.75977037966296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1779aa70a7%3A0xa618e4eff1228d60!2sMission%20Dolores%20Park!5e0!3m2!1sen!2sus!4v1628111200608!5m2!1sen!2sus"
+                width="60%"
+                height="60%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                class="border border-5 border-success rounded-3 m-5"
+              ></iframe>
+            </div>
+            <div class="text-center p-4 m-5">
+              <h2>Mission Dolores Park</h2>
+              <p>08/16/2021 - 11am - 5pm</p>
+              <p>Dolores St &, 19th St, San Francisco, CA 94114</p>
+              <p>Cost: $10.95/meal</p>
+              <a href="#" class="btn btn-primary">Donate Now!</a>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item active">
-          <img
-            src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
-            class="d-block w-100"
-            alt="..."
-          />
+        <div class="carousel-item bg-secondary">
+          <div class="d-flex">
+            <div class="border-end border-dark border-1">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.370516707383!2d-122.27700606794278!3d37.793971422011914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f80c889ed8687%3A0x91f71d049b75ae5a!2sJack%20London%20Square!5e0!3m2!1sen!2sus!4v1628113417814!5m2!1sen!2sus"
+                width="60%"
+                height="60%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                class="border border-5 border-success rounded-3 m-5"
+              ></iframe>
+            </div>
+            <div class="text-center p-4 m-5">
+              <h2>Jack London Square</h2>
+              <p>08/23/2021 - 11am - 5pm</p>
+              <p>472 Water St, Oakland, CA 94607</p>
+              <p>Cost: $9.25/meal</p>
+              <a href="#" class="btn btn-primary">Donate Now!</a>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-            class="d-block w-100"
-            alt="..."
-          />
+        <div class="carousel-item bg-secondary">
+          <div class="d-flex">
+            <div class="border-end border-dark border-1">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.3626944283521!2d-122.41825170814994!3d37.779474359558954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807c63c7f313%3A0xcb69517d605de0e6!2sCivic%20Center%20Plaza!5e0!3m2!1sen!2sus!4v1628113736324!5m2!1sen!2sus"
+                width="60%"
+                height="60%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                class="border border-5 border-success rounded-3 m-5"
+              ></iframe>
+            </div>
+            <div class="text-center p-4 m-5">
+              <h2>Civic Center</h2>
+              <p>08/30/2021 - 11am - 5pm</p>
+              <p>335 McAllister St, San Francisco, CA 94102</p>
+              <p>Cost: $8.75/meal</p>
+              <a href="#" class="btn btn-primary">Donate Now!</a>
+            </div>
+          </div>
         </div>
       </div>
       <button
@@ -164,6 +211,74 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <!-- cards -->
+    <div class="d-flex justify-content-around align-self-center">
+      <div class="card text-center" style="width: 18rem">
+        <img
+          src="https://images.unsplash.com/photo-1512415031623-5c8392938dc4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Collecting</h5>
+          <p class="card-text">
+            We are collecting your donations in a PayPal donation pool every
+            week. We make sure to record your name. So you'll be able to track
+            your donation!
+          </p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="card text-center" style="width: 18rem">
+        <img
+          src="https://images.unsplash.com/photo-1616446073474-a1dbf9126afa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Managing</h5>
+          <p class="card-text">
+            We are managing your donations in our non-profit organization and
+            distrubute roles to our volunteers in different locations! Contact
+            us for opportunities!
+          </p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="card text-center" style="width: 18rem">
+        <img
+          src="https://images.unsplash.com/photo-1573145757298-85c8a093545d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Serving</h5>
+          <p class="card-text">
+            Serving food to homeless people are the most fun part of this
+            project! We have many volunteers every week from different
+            backgrounds!
+          </p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-3">
+      <div class="container bg-secondary">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">
+          Album example is © Bootstrap, but please download and customize it for
+          yourself!
+        </p>
+        <p class="mb-0">
+          New to Bootstrap? <a href="/">Visit the homepage</a> or read our
+          <a href="/docs/5.0/getting-started/introduction/"
+            >getting started guide</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
   <script src="./project.js"></script>
   <script
