@@ -5,3 +5,8 @@ body {
 .rounded-3 {
   border-radius: 15% !important;
 }
+.cropSqr {
+  background: 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
+}
