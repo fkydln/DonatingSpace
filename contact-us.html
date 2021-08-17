@@ -14,15 +14,18 @@
   </head>
   <body class="container">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <nav
+        id="starCommandBlue"
+        class="navbar navbar-expand-lg navbar-light bg-secondary"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-            src="./assets/heart.png"
-            alt=""
-            width="40"
-            height="40"
-          />
+              src="https://cdn.glitch.com/88f8908a-bacd-499e-955a-6f7bc8dcb385%2Fheart.png?v=1628717038752"
+              alt=""
+              width="40"
+              height="40"
+            />
           </a>
           <a class="navbar-brand" href="./index.html">Do-Nation</a>
           <button
@@ -39,7 +42,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./projects.html">Projects</a>
@@ -47,10 +55,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="./contact-us.html">Contact us</a>
               </li>
-
-                </ul>
-              </li>
             </ul>
+
             <form class="d-flex">
               <input
                 class="form-control me-2"
@@ -68,50 +74,116 @@
 
       <!-- mini description -->
       <div class="margin-bottom: 18rem">
-        <h1 class="text-center p-4 mt-3 bg-secondary">
+        <h1 id="lightSkyBlue" class="text-center p-4 mt-3 bg-secondary">
           Contact us
         </h1>
       </div>
     </header>
-    <div class="d-flex text-center"">
-      <div class="d-flex" style="max-width: 50%; flex-direction: column; justify-content: center;">
-        <h5>We are a non-profit San Francisco organization. Our ultimate goal is to create a better world by ending hungriness and homelessness. <br> <br>
-        We are calling everyone to help us solve our community's serious problem. <br> <br>
-          Homelessness is a growing problem that we only can solve if we get all together.
-      </h5>
-      <img  style="width: 200px; height: 40px;" src="./assets/signature.JPG" alt="signature">
-
-
+    <div class="d-flex text-center">
+      <div
+        class="d-flex"
+        style="max-width: 50%; flex-direction: column; justify-content: center"
+      >
+        <h5>
+          We are a non-profit San Francisco organization. Our ultimate goal is
+          to create a better world by ending hungriness and homelessness. <br />
+          <br />
+          We are calling everyone to help us solve our community's serious
+          problem. <br />
+          <br />
+          Homelessness is a growing problem that we only can solve if we get all
+          together.
+        </h5>
+        <img
+          style="width: 200px; height: 40px"
+          src="https://cdn.glitch.com/88f8908a-bacd-499e-955a-6f7bc8dcb385%2Fsignature.JPG?v=1628717058151"
+          alt="signature"
+        />
       </div>
-      <div style="max-width: 50%; margin: auto;" >
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <div style="max-width: 50%; margin: auto">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-6">
+            <label for="validationCustom01" class="form-label"
+              >First name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              value=""
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+          <div class="col-md-6">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom02"
+              value=""
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">I agree services and terms.</label>
+          <div class="col-md-4"></div>
+          <div class="col-md-12">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text"></div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="col-md-3"></div>
+          <div class="col-md-12">
+            <label for="validationTextarea" class="form-label">Textarea</label>
+            <textarea
+              class="form-control is-invalid"
+              id="validationTextarea"
+              placeholder="Required example textarea"
+              required
+            ></textarea>
+            <div class="invalid-feedback">
+              Please enter a message in the textarea.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label text-start" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
         </form>
-    </div>
+      </div>
     </div>
 
     <footer class="mt-3">
-      <div class="container bg-secondary">
+      <div id="starCommandBlue" class="container bg-secondary">
         <p class="float-end mb-1">
           <a href="#">Back to top</a>
         </p>
         <p class="mb-1 text-center">
           Designed and coded with &hearts; by Faz. | Copyright 2021 &copy;
         </p>
-
       </div>
     </footer>
   </body>

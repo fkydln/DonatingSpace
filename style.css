@@ -1,6 +1,6 @@
 body {
   background-color: #f7fbff;
-  background-image: url(./assets/grid-noise.png);
+  background-image: url(https://cdn.glitch.com/88f8908a-bacd-499e-955a-6f7bc8dcb385%2Fgrid-noise.png?v=1628717029473);
 }
 .rounded-3 {
   border-radius: 15% !important;
@@ -9,4 +9,13 @@ body {
   background: 50% 50% no-repeat; /* 50% 50% centers image in div */
   width: 250px;
   height: 250px;
+}
+#lightSkyBlue {
+  background-color: #85d2ff !important;
+}
+#starCommandBlue {
+  background-color: #3d77a4 !important;
+}
+#celadonBlue {
+  background-color: #bdd5ea !important;
 }
